@@ -1,0 +1,5 @@
+🚀 Build command: npx react-native run-androidecho Memory-Master-Pro Build Instructions:
+1. git clone https://github.com/EtunaElago/Memory-Master-Pro.git
+2. cd Memory-Master-Pro
+3. npm install
+4. npx react-native run-android
