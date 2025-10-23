@@ -17,13 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.memorymaster.pro",
-      "buildNumber": "1",
-      "config": {
-        "usesNonExemptEncryption": false
-      },
-      "infoPlist": {
-        "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
-      }
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,29 +25,12 @@
         "backgroundColor": "#2563eb"
       },
       "package": "com.memorymaster.pro",
-      "versionCode": 1,
-      "permissions": [
-        "com.google.android.gms.permission.AD_ID"
-      ]
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-tracking-transparency",
-        {
-          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
-        }
-      ],
-      [
-        "expo-ads-admob",
-        {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
-          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
-        }
-      ]
-    ],
+    "plugins": [],
     "extra": {
       "eas": {
         "projectId": "your-project-id"
