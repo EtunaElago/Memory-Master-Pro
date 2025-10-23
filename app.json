@@ -18,17 +18,11 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.memorymaster.pro",
       "buildNumber": "1",
-      "appStoreUrl": "https://apps.apple.com/app/memory-master-pro/idYOUR_APP_ID",
       "config": {
         "usesNonExemptEncryption": false
       },
       "infoPlist": {
-        "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you.",
-        "SKAdNetworkItems": [
-          {
-            "SKAdNetworkIdentifier": "cstr6suwn9.skadnetwork"
-          }
-        ]
+        "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
       }
     },
     "android": {
@@ -38,22 +32,12 @@
       },
       "package": "com.memorymaster.pro",
       "versionCode": 1,
-      "permissions": [
-        "com.google.android.gms.permission.AD_ID"
-      ],
-      "googleServicesFile": "./google-services.json"
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-tracking-transparency",
-        {
-          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
-        }
-      ]
-    ],
+    "plugins": [],
     "extra": {
       "eas": {
         "projectId": "your-project-id"
@@ -61,4 +45,4 @@
     },
     "owner": "EtunaElago"
   }
-    }
+}
