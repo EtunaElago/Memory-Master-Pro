@@ -52,13 +52,6 @@
         {
           "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
         }
-      ],
-      [
-        {
-          "androidAppId": "ca-app-pub-1234567890123456~1234567890",
-          "iosAppId": "ca-app-pub-1234567890123456~1234567890",
-          "userTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
-        }
       ]
     ],
     "extra": {
@@ -68,4 +61,4 @@
     },
     "owner": "EtunaElago"
   }
-}
+    }
